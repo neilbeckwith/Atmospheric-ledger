@@ -1,0 +1,1753 @@
+{
+ "meta": {
+  "title": "Atmospheric Ledger \u2014 CO2 in the air, and the warming it drives",
+  "latest_year": 2025,
+  "first_year": 1959,
+  "units": "CO2 in ppm (parts per million, mole fraction in dry air); CH4 in ppb; temperature anomaly in \u00b0C vs 1951\u20131980; carbon budget in GtC/yr (1 GtC = 3.664 GtCO2; 1 ppm CO2 = 2.124 GtC = 7.79 GtCO2)",
+  "sources": {
+   "co2": "NOAA Global Monitoring Laboratory, Trends in atmospheric CO2 (Mauna Loa annual means and global annual means; Lan et al.), gml.noaa.gov/webdata/ccgg/trends/co2/",
+   "ch4": "NOAA Global Monitoring Laboratory, Trends in atmospheric CH4 (global annual means), gml.noaa.gov/webdata/ccgg/trends/ch4/",
+   "temp": "NASA GISTEMP v4, global mean surface temperature anomaly, land-ocean (J-D annual means, baseline 1951-1980; Lenssen et al. 2019, doi:10.1029/2018JD029522), data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv",
+   "budget": "Friedlingstein et al. 2025, Global Carbon Budget 2025, Earth Syst. Sci. Data 18, 3211-3288, doi:10.5194/essd-18-3211-2026; data doi:10.18160/GCP-2025 (spreadsheet via ICOS Carbon Portal). Budget quantities run through 2024 only.",
+   "gcos": "GCOS Essential Climate Variables, atmospheric domain (16 ECVs), gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables (accessed 2026-11-27)",
+   "forcing": "IPCC AR6 WG1, Chapter 7 (Forster et al. 2021), effective radiative forcing 1750-2019, doi:10.1017/9781009157896.009",
+   "preindustrial": "CO2 278 ppm and CH4 722 ppb, pre-industrial (1750) references, IPCC AR6"
+  },
+  "notes": [
+   "Headline CO2 and temperature values are computed from the downloaded NOAA GML and NASA GISTEMP files by this script; nothing on the page is hand-typed from a table.",
+   "The Global Carbon Budget 2025 series ends in 2024, so the airborne fraction and the sink figures run through 2024; the 2025 CO2 growth (2.84 ppm globally) is the observed NOAA value, converted at 2.124 GtC per ppm for the cumulative total.",
+   "No values on this page are read from a chart. Every figure comes from a downloaded data file or a cited paper value.",
+   "Sign convention: atmospheric growth is POSITIVE (carbon added to the air). The airborne fraction is the share of total human emissions (fossil + land-use change) that stayed in the atmosphere in that year.",
+   "Temperature anomalies are relative to the 1951-1980 baseline (GISTEMP). Warming since 1880-1899 is the difference between the latest anomaly and the 1880-1899 mean anomaly (-0.23 \u00b0C)."
+  ]
+ },
+ "annual": [
+  {
+   "year": 1959,
+   "co2_mlo_ppm": 315.98,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": null,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": 0.03,
+   "airborne_fraction_pct": 42.6,
+   "gatm_gtc": 2.03904,
+   "efos_gtc": 2.41678824536026,
+   "eluc_gtc": 2.37248,
+   "socean_gtc": 1.11508070269876,
+   "sland_gtc": 0.453344829624502
+  },
+  {
+   "year": 1960,
+   "co2_mlo_ppm": 316.91,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": 0.93,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": -0.03,
+   "airborne_fraction_pct": 32.5,
+   "gatm_gtc": 1.50804,
+   "efos_gtc": 2.56194087827511,
+   "eluc_gtc": 2.07712,
+   "socean_gtc": 1.08368602196766,
+   "sland_gtc": 0.733534084300578
+  },
+  {
+   "year": 1961,
+   "co2_mlo_ppm": 317.64,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": 0.73,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": 0.06,
+   "airborne_fraction_pct": 35.6,
+   "gatm_gtc": 1.65672,
+   "efos_gtc": 2.56959347434498,
+   "eluc_gtc": 2.08246666666667,
+   "socean_gtc": 1.02492870186467,
+   "sland_gtc": 0.682194717898086
+  },
+  {
+   "year": 1962,
+   "co2_mlo_ppm": 318.45,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": 0.81,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": 0.03,
+   "airborne_fraction_pct": 25.8,
+   "gatm_gtc": 1.18944,
+   "efos_gtc": 2.66027313864629,
+   "eluc_gtc": 1.94825333333333,
+   "socean_gtc": 1.06926834483989,
+   "sland_gtc": 1.13320924266558
+  },
+  {
+   "year": 1963,
+   "co2_mlo_ppm": 318.99,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": 0.54,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": 0.05,
+   "airborne_fraction_pct": 25.8,
+   "gatm_gtc": 1.21068,
+   "efos_gtc": 2.80206814001092,
+   "eluc_gtc": 1.89774333333333,
+   "socean_gtc": 1.26652315846873,
+   "sland_gtc": 0.773127182753466
+  },
+  {
+   "year": 1964,
+   "co2_mlo_ppm": 319.62,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": 0.63,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": -0.2,
+   "airborne_fraction_pct": 21.8,
+   "gatm_gtc": 1.04076,
+   "efos_gtc": 2.95427665174672,
+   "eluc_gtc": 1.81766333333333,
+   "socean_gtc": 1.36621767561798,
+   "sland_gtc": 0.986012346438706
+  },
+  {
+   "year": 1965,
+   "co2_mlo_ppm": 320.04,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": 0.42,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": -0.11,
+   "airborne_fraction_pct": 48.4,
+   "gatm_gtc": 2.3364,
+   "efos_gtc": 3.08695493422489,
+   "eluc_gtc": 1.74274666666667,
+   "socean_gtc": 1.45562448514609,
+   "sland_gtc": 0.349777999112832
+  },
+  {
+   "year": 1966,
+   "co2_mlo_ppm": 321.37,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": 1.33,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": -0.06,
+   "airborne_fraction_pct": 48.1,
+   "gatm_gtc": 2.3364,
+   "efos_gtc": 3.23761605376638,
+   "eluc_gtc": 1.61494,
+   "socean_gtc": 1.37564430202541,
+   "sland_gtc": 1.12998958488267
+  },
+  {
+   "year": 1967,
+   "co2_mlo_ppm": 322.18,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": 0.81,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": -0.02,
+   "airborne_fraction_pct": 25.7,
+   "gatm_gtc": 1.29564,
+   "efos_gtc": 3.33989376009825,
+   "eluc_gtc": 1.70593,
+   "socean_gtc": 1.22106671819661,
+   "sland_gtc": 1.33575791876102
+  },
+  {
+   "year": 1968,
+   "co2_mlo_ppm": 323.05,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": 0.87,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": -0.08,
+   "airborne_fraction_pct": 40.1,
+   "gatm_gtc": 2.10276,
+   "efos_gtc": 3.52218167603712,
+   "eluc_gtc": 1.72683666666667,
+   "socean_gtc": 1.35779538915996,
+   "sland_gtc": 1.60211703941645
+  },
+  {
+   "year": 1969,
+   "co2_mlo_ppm": 324.62,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": 1.57,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": 0.05,
+   "airborne_fraction_pct": 49.6,
+   "gatm_gtc": 2.80368,
+   "efos_gtc": 3.75594906877729,
+   "eluc_gtc": 1.89425333333333,
+   "socean_gtc": 1.46998245208838,
+   "sland_gtc": 0.587492738064448
+  },
+  {
+   "year": 1970,
+   "co2_mlo_ppm": 325.68,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": 1.06,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": 0.03,
+   "airborne_fraction_pct": 40.7,
+   "gatm_gtc": 2.40012,
+   "efos_gtc": 4.06635873662664,
+   "eluc_gtc": 1.82578333333333,
+   "socean_gtc": 1.34739071712832,
+   "sland_gtc": 0.730587062035082
+  },
+  {
+   "year": 1971,
+   "co2_mlo_ppm": 326.32,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": 0.64,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": -0.08,
+   "airborne_fraction_pct": 26.2,
+   "gatm_gtc": 1.55052,
+   "efos_gtc": 4.23140383569869,
+   "eluc_gtc": 1.6756,
+   "socean_gtc": 1.43617516369666,
+   "sland_gtc": 1.65207005646128
+  },
+  {
+   "year": 1972,
+   "co2_mlo_ppm": 327.46,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": 1.14,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": 0.01,
+   "airborne_fraction_pct": 50.5,
+   "gatm_gtc": 3.12228,
+   "efos_gtc": 4.42810604939956,
+   "eluc_gtc": 1.75712,
+   "socean_gtc": 1.64302574193225,
+   "sland_gtc": 0.808476157546628
+  },
+  {
+   "year": 1973,
+   "co2_mlo_ppm": 329.68,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": 2.22,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": 0.16,
+   "airborne_fraction_pct": 48.7,
+   "gatm_gtc": 3.10104,
+   "efos_gtc": 4.66083134443231,
+   "eluc_gtc": 1.70695,
+   "socean_gtc": 1.59349179781696,
+   "sland_gtc": 1.14414004644052
+  },
+  {
+   "year": 1974,
+   "co2_mlo_ppm": 330.19,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": 0.51,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": -0.07,
+   "airborne_fraction_pct": 22.7,
+   "gatm_gtc": 1.44432,
+   "efos_gtc": 4.63916801337336,
+   "eluc_gtc": 1.72298,
+   "socean_gtc": 1.53498634187164,
+   "sland_gtc": 2.94527020301577
+  },
+  {
+   "year": 1975,
+   "co2_mlo_ppm": 331.13,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": 0.94,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": -0.01,
+   "airborne_fraction_pct": 41.4,
+   "gatm_gtc": 2.61252,
+   "efos_gtc": 4.63659299863537,
+   "eluc_gtc": 1.67126,
+   "socean_gtc": 1.52288586121911,
+   "sland_gtc": 2.09459003425971
+  },
+  {
+   "year": 1976,
+   "co2_mlo_ppm": 332.03,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": 0.9,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": -0.1,
+   "airborne_fraction_pct": 31.6,
+   "gatm_gtc": 2.06028,
+   "efos_gtc": 4.87513420087336,
+   "eluc_gtc": 1.65400666666667,
+   "socean_gtc": 1.64169696098276,
+   "sland_gtc": 2.16596237061818
+  },
+  {
+   "year": 1977,
+   "co2_mlo_ppm": 333.84,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": 1.81,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": 0.18,
+   "airborne_fraction_pct": 59.8,
+   "gatm_gtc": 4.07808,
+   "efos_gtc": 5.01038173362445,
+   "eluc_gtc": 1.80679333333333,
+   "socean_gtc": 1.71068713200791,
+   "sland_gtc": 1.1448208933186
+  },
+  {
+   "year": 1978,
+   "co2_mlo_ppm": 335.41,
+   "co2_gl_ppm": null,
+   "co2_growth_mlo_ppm": 1.57,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": 0.07,
+   "airborne_fraction_pct": 39.2,
+   "gatm_gtc": 2.73996,
+   "efos_gtc": 5.19234206577511,
+   "eluc_gtc": 1.79145666666667,
+   "socean_gtc": 1.70386251573051,
+   "sland_gtc": 2.11214814734769
+  },
+  {
+   "year": 1979,
+   "co2_mlo_ppm": 336.84,
+   "co2_gl_ppm": 336.85,
+   "co2_growth_mlo_ppm": 1.43,
+   "co2_growth_gl_ppm": null,
+   "temp_anom_c": 0.16,
+   "airborne_fraction_pct": 65.7,
+   "gatm_gtc": 4.54536,
+   "efos_gtc": 5.32439696370087,
+   "eluc_gtc": 1.59820666666667,
+   "socean_gtc": 1.65611384791479,
+   "sland_gtc": 1.08359074777903
+  },
+  {
+   "year": 1980,
+   "co2_mlo_ppm": 338.76,
+   "co2_gl_ppm": 338.91,
+   "co2_growth_mlo_ppm": 1.92,
+   "co2_growth_gl_ppm": 2.06,
+   "temp_anom_c": 0.26,
+   "airborne_fraction_pct": 51.5,
+   "gatm_gtc": 3.56832,
+   "efos_gtc": 5.2974325963428,
+   "eluc_gtc": 1.63791333333333,
+   "socean_gtc": 2.01193726605731,
+   "sland_gtc": 0.248003946412886
+  },
+  {
+   "year": 1981,
+   "co2_mlo_ppm": 340.12,
+   "co2_gl_ppm": 340.11,
+   "co2_growth_mlo_ppm": 1.36,
+   "co2_growth_gl_ppm": 1.2,
+   "temp_anom_c": 0.32,
+   "airborne_fraction_pct": 36.2,
+   "gatm_gtc": 2.4426,
+   "efos_gtc": 5.15277201009825,
+   "eluc_gtc": 1.59295333333333,
+   "socean_gtc": 1.94005851027159,
+   "sland_gtc": 1.61447923414297
+  },
+  {
+   "year": 1982,
+   "co2_mlo_ppm": 341.48,
+   "co2_gl_ppm": 340.85,
+   "co2_growth_mlo_ppm": 1.36,
+   "co2_growth_gl_ppm": 0.74,
+   "temp_anom_c": 0.14,
+   "airborne_fraction_pct": 31.8,
+   "gatm_gtc": 2.10276,
+   "efos_gtc": 5.11182925,
+   "eluc_gtc": 1.50970333333333,
+   "socean_gtc": 2.02656358684737,
+   "sland_gtc": 1.32721862940328
+  },
+  {
+   "year": 1983,
+   "co2_mlo_ppm": 343.15,
+   "co2_gl_ppm": 342.53,
+   "co2_growth_mlo_ppm": 1.67,
+   "co2_growth_gl_ppm": 1.68,
+   "temp_anom_c": 0.31,
+   "airborne_fraction_pct": 57.9,
+   "gatm_gtc": 3.90816,
+   "efos_gtc": 5.15878139819869,
+   "eluc_gtc": 1.59384666666667,
+   "socean_gtc": 2.21370321077533,
+   "sland_gtc": 0.208065986174985
+  },
+  {
+   "year": 1984,
+   "co2_mlo_ppm": 344.87,
+   "co2_gl_ppm": 344.07,
+   "co2_growth_mlo_ppm": 1.72,
+   "co2_growth_gl_ppm": 1.54,
+   "temp_anom_c": 0.16,
+   "airborne_fraction_pct": 37.0,
+   "gatm_gtc": 2.61252,
+   "efos_gtc": 5.31038475600437,
+   "eluc_gtc": 1.75349333333333,
+   "socean_gtc": 2.08312625461884,
+   "sland_gtc": 1.88332051008408
+  },
+  {
+   "year": 1985,
+   "co2_mlo_ppm": 346.35,
+   "co2_gl_ppm": 345.54,
+   "co2_growth_mlo_ppm": 1.48,
+   "co2_growth_gl_ppm": 1.47,
+   "temp_anom_c": 0.12,
+   "airborne_fraction_pct": 47.7,
+   "gatm_gtc": 3.5046,
+   "efos_gtc": 5.49805212254367,
+   "eluc_gtc": 1.85255,
+   "socean_gtc": 2.02806959252954,
+   "sland_gtc": 2.04022238591348
+  },
+  {
+   "year": 1986,
+   "co2_mlo_ppm": 347.61,
+   "co2_gl_ppm": 346.97,
+   "co2_growth_mlo_ppm": 1.26,
+   "co2_growth_gl_ppm": 1.43,
+   "temp_anom_c": 0.18,
+   "airborne_fraction_pct": 29.0,
+   "gatm_gtc": 2.16648,
+   "efos_gtc": 5.57806900573144,
+   "eluc_gtc": 1.89501,
+   "socean_gtc": 2.04590671828329,
+   "sland_gtc": 1.95314615615967
+  },
+  {
+   "year": 1987,
+   "co2_mlo_ppm": 349.31,
+   "co2_gl_ppm": 348.68,
+   "co2_growth_mlo_ppm": 1.7,
+   "co2_growth_gl_ppm": 1.71,
+   "temp_anom_c": 0.32,
+   "airborne_fraction_pct": 74.7,
+   "gatm_gtc": 5.6286,
+   "efos_gtc": 5.76042310644105,
+   "eluc_gtc": 1.77345666666667,
+   "socean_gtc": 2.11023411589562,
+   "sland_gtc": 0.609053027323608
+  },
+  {
+   "year": 1988,
+   "co2_mlo_ppm": 351.69,
+   "co2_gl_ppm": 351.16,
+   "co2_growth_mlo_ppm": 2.38,
+   "co2_growth_gl_ppm": 2.48,
+   "temp_anom_c": 0.39,
+   "airborne_fraction_pct": 60.2,
+   "gatm_gtc": 4.60908,
+   "efos_gtc": 5.98219322543668,
+   "eluc_gtc": 1.68031666666667,
+   "socean_gtc": 2.07096606407595,
+   "sland_gtc": 1.36033466506197
+  },
+  {
+   "year": 1989,
+   "co2_mlo_ppm": 353.2,
+   "co2_gl_ppm": 352.79,
+   "co2_growth_mlo_ppm": 1.51,
+   "co2_growth_gl_ppm": 1.63,
+   "temp_anom_c": 0.27,
+   "airborne_fraction_pct": 40.3,
+   "gatm_gtc": 3.10104,
+   "efos_gtc": 6.05900994323144,
+   "eluc_gtc": 1.63232,
+   "socean_gtc": 2.11622099657883,
+   "sland_gtc": 2.68630946723706
+  },
+  {
+   "year": 1990,
+   "co2_mlo_ppm": 354.45,
+   "co2_gl_ppm": 354.06,
+   "co2_growth_mlo_ppm": 1.25,
+   "co2_growth_gl_ppm": 1.27,
+   "temp_anom_c": 0.45,
+   "airborne_fraction_pct": 33.2,
+   "gatm_gtc": 2.59128,
+   "efos_gtc": 6.20418768531659,
+   "eluc_gtc": 1.59090333333333,
+   "socean_gtc": 2.20334156257454,
+   "sland_gtc": 1.84766135368803
+  },
+  {
+   "year": 1991,
+   "co2_mlo_ppm": 355.7,
+   "co2_gl_ppm": 355.4,
+   "co2_growth_mlo_ppm": 1.25,
+   "co2_growth_gl_ppm": 1.34,
+   "temp_anom_c": 0.41,
+   "airborne_fraction_pct": 20.2,
+   "gatm_gtc": 1.593,
+   "efos_gtc": 6.33340364492358,
+   "eluc_gtc": 1.56121666666667,
+   "socean_gtc": 2.35629247151321,
+   "sland_gtc": 1.76230919287666
+  },
+  {
+   "year": 1992,
+   "co2_mlo_ppm": 356.54,
+   "co2_gl_ppm": 356.09,
+   "co2_growth_mlo_ppm": 0.84,
+   "co2_growth_gl_ppm": 0.69,
+   "temp_anom_c": 0.22,
+   "airborne_fraction_pct": 19.7,
+   "gatm_gtc": 1.52928,
+   "efos_gtc": 6.14640394814411,
+   "eluc_gtc": 1.62879333333333,
+   "socean_gtc": 2.49561163386897,
+   "sland_gtc": 1.68289247238115
+  },
+  {
+   "year": 1993,
+   "co2_mlo_ppm": 357.21,
+   "co2_gl_ppm": 356.83,
+   "co2_growth_mlo_ppm": 0.67,
+   "co2_growth_gl_ppm": 0.74,
+   "temp_anom_c": 0.23,
+   "airborne_fraction_pct": 33.6,
+   "gatm_gtc": 2.61252,
+   "efos_gtc": 6.20902622298035,
+   "eluc_gtc": 1.56476333333333,
+   "socean_gtc": 2.44703121403096,
+   "sland_gtc": 2.23436913722524
+  },
+  {
+   "year": 1994,
+   "co2_mlo_ppm": 358.96,
+   "co2_gl_ppm": 358.33,
+   "co2_growth_mlo_ppm": 1.75,
+   "co2_growth_gl_ppm": 1.5,
+   "temp_anom_c": 0.31,
+   "airborne_fraction_pct": 43.6,
+   "gatm_gtc": 3.52584,
+   "efos_gtc": 6.27035980867904,
+   "eluc_gtc": 1.82011666666667,
+   "socean_gtc": 2.29526830507929,
+   "sland_gtc": 1.24423334295867
+  },
+  {
+   "year": 1995,
+   "co2_mlo_ppm": 360.97,
+   "co2_gl_ppm": 360.18,
+   "co2_growth_mlo_ppm": 2.01,
+   "co2_growth_gl_ppm": 1.85,
+   "temp_anom_c": 0.44,
+   "airborne_fraction_pct": 52.2,
+   "gatm_gtc": 4.248,
+   "efos_gtc": 6.418296367631,
+   "eluc_gtc": 1.71345,
+   "socean_gtc": 2.28271771312072,
+   "sland_gtc": 1.49748838125701
+  },
+  {
+   "year": 1996,
+   "co2_mlo_ppm": 362.74,
+   "co2_gl_ppm": 361.93,
+   "co2_growth_mlo_ppm": 1.77,
+   "co2_growth_gl_ppm": 1.75,
+   "temp_anom_c": 0.33,
+   "airborne_fraction_pct": 26.6,
+   "gatm_gtc": 2.2302,
+   "efos_gtc": 6.61394015584061,
+   "eluc_gtc": 1.78543333333333,
+   "socean_gtc": 2.27331851137296,
+   "sland_gtc": 2.50232577530518
+  },
+  {
+   "year": 1997,
+   "co2_mlo_ppm": 363.88,
+   "co2_gl_ppm": 363.04,
+   "co2_growth_mlo_ppm": 1.14,
+   "co2_growth_gl_ppm": 1.11,
+   "temp_anom_c": 0.46,
+   "airborne_fraction_pct": 47.3,
+   "gatm_gtc": 4.18428,
+   "efos_gtc": 6.65401782969432,
+   "eluc_gtc": 2.18876,
+   "socean_gtc": 2.38195853336847,
+   "sland_gtc": 2.54649283804233
+  },
+  {
+   "year": 1998,
+   "co2_mlo_ppm": 366.84,
+   "co2_gl_ppm": 365.7,
+   "co2_growth_mlo_ppm": 2.96,
+   "co2_growth_gl_ppm": 2.66,
+   "temp_anom_c": 0.61,
+   "airborne_fraction_pct": 71.1,
+   "gatm_gtc": 6.03216,
+   "efos_gtc": 6.63092603684498,
+   "eluc_gtc": 1.85377666666667,
+   "socean_gtc": 2.44160773402976,
+   "sland_gtc": 1.38560007953065
+  },
+  {
+   "year": 1999,
+   "co2_mlo_ppm": 368.54,
+   "co2_gl_ppm": 367.79,
+   "co2_growth_mlo_ppm": 1.7,
+   "co2_growth_gl_ppm": 2.09,
+   "temp_anom_c": 0.38,
+   "airborne_fraction_pct": 33.2,
+   "gatm_gtc": 2.84616,
+   "efos_gtc": 6.77886754066594,
+   "eluc_gtc": 1.7909,
+   "socean_gtc": 2.23425946856316,
+   "sland_gtc": 2.84029286780451
+  },
+  {
+   "year": 2000,
+   "co2_mlo_ppm": 369.71,
+   "co2_gl_ppm": 368.96,
+   "co2_growth_mlo_ppm": 1.17,
+   "co2_growth_gl_ppm": 1.17,
+   "temp_anom_c": 0.39,
+   "airborne_fraction_pct": 30.7,
+   "gatm_gtc": 2.655,
+   "efos_gtc": 6.96274112281659,
+   "eluc_gtc": 1.67733666666667,
+   "socean_gtc": 2.19114786399707,
+   "sland_gtc": 2.72018345982583
+  },
+  {
+   "year": 2001,
+   "co2_mlo_ppm": 371.32,
+   "co2_gl_ppm": 370.57,
+   "co2_growth_mlo_ppm": 1.61,
+   "co2_growth_gl_ppm": 1.61,
+   "temp_anom_c": 0.53,
+   "airborne_fraction_pct": 46.2,
+   "gatm_gtc": 3.9294,
+   "efos_gtc": 7.01227991184498,
+   "eluc_gtc": 1.49036666666667,
+   "socean_gtc": 2.10160761349522,
+   "sland_gtc": 2.01531118742938
+  },
+  {
+   "year": 2002,
+   "co2_mlo_ppm": 373.45,
+   "co2_gl_ppm": 372.58,
+   "co2_growth_mlo_ppm": 2.13,
+   "co2_growth_gl_ppm": 2.01,
+   "temp_anom_c": 0.63,
+   "airborne_fraction_pct": 56.8,
+   "gatm_gtc": 5.01264,
+   "efos_gtc": 7.16848568313319,
+   "eluc_gtc": 1.66312666666667,
+   "socean_gtc": 2.48996478111516,
+   "sland_gtc": 1.08326999467067
+  },
+  {
+   "year": 2003,
+   "co2_mlo_ppm": 375.98,
+   "co2_gl_ppm": 375.14,
+   "co2_growth_mlo_ppm": 2.53,
+   "co2_growth_gl_ppm": 2.56,
+   "temp_anom_c": 0.61,
+   "airborne_fraction_pct": 51.0,
+   "gatm_gtc": 4.86396,
+   "efos_gtc": 7.54713168204148,
+   "eluc_gtc": 1.99814666666667,
+   "socean_gtc": 2.59154156846924,
+   "sland_gtc": 1.98779938383743
+  },
+  {
+   "year": 2004,
+   "co2_mlo_ppm": 377.7,
+   "co2_gl_ppm": 376.94,
+   "co2_growth_mlo_ppm": 1.72,
+   "co2_growth_gl_ppm": 1.8,
+   "temp_anom_c": 0.53,
+   "airborne_fraction_pct": 34.6,
+   "gatm_gtc": 3.31344,
+   "efos_gtc": 7.8084126610262,
+   "eluc_gtc": 1.75869666666667,
+   "socean_gtc": 2.57472395694262,
+   "sland_gtc": 2.51745321335263
+  },
+  {
+   "year": 2005,
+   "co2_mlo_ppm": 379.98,
+   "co2_gl_ppm": 378.98,
+   "co2_growth_mlo_ppm": 2.28,
+   "co2_growth_gl_ppm": 2.04,
+   "temp_anom_c": 0.68,
+   "airborne_fraction_pct": 54.1,
+   "gatm_gtc": 5.24628,
+   "efos_gtc": 8.07831617030568,
+   "eluc_gtc": 1.61875333333333,
+   "socean_gtc": 2.62333357627565,
+   "sland_gtc": 1.58563259713982
+  },
+  {
+   "year": 2006,
+   "co2_mlo_ppm": 382.09,
+   "co2_gl_ppm": 381.15,
+   "co2_growth_mlo_ppm": 2.11,
+   "co2_growth_gl_ppm": 2.17,
+   "temp_anom_c": 0.64,
+   "airborne_fraction_pct": 37.8,
+   "gatm_gtc": 3.78072,
+   "efos_gtc": 8.34993223417031,
+   "eluc_gtc": 1.64676333333333,
+   "socean_gtc": 2.72117171890448,
+   "sland_gtc": 2.53775349801549
+  },
+  {
+   "year": 2007,
+   "co2_mlo_ppm": 384.02,
+   "co2_gl_ppm": 382.9,
+   "co2_growth_mlo_ppm": 1.93,
+   "co2_growth_gl_ppm": 1.75,
+   "temp_anom_c": 0.66,
+   "airborne_fraction_pct": 44.7,
+   "gatm_gtc": 4.52412,
+   "efos_gtc": 8.59695838482533,
+   "eluc_gtc": 1.52653,
+   "socean_gtc": 2.69646691793461,
+   "sland_gtc": 2.35230286282001
+  },
+  {
+   "year": 2008,
+   "co2_mlo_ppm": 385.83,
+   "co2_gl_ppm": 385.02,
+   "co2_growth_mlo_ppm": 1.81,
+   "co2_growth_gl_ppm": 2.12,
+   "temp_anom_c": 0.54,
+   "airborne_fraction_pct": 36.2,
+   "gatm_gtc": 3.75948,
+   "efos_gtc": 8.74717802592795,
+   "eluc_gtc": 1.62418666666667,
+   "socean_gtc": 2.71492692728134,
+   "sland_gtc": 2.61581251859609
+  },
+  {
+   "year": 2009,
+   "co2_mlo_ppm": 387.64,
+   "co2_gl_ppm": 386.5,
+   "co2_growth_mlo_ppm": 1.81,
+   "co2_growth_gl_ppm": 1.48,
+   "temp_anom_c": 0.66,
+   "airborne_fraction_pct": 32.3,
+   "gatm_gtc": 3.35592,
+   "efos_gtc": 8.60071331413755,
+   "eluc_gtc": 1.78352,
+   "socean_gtc": 2.83379991196591,
+   "sland_gtc": 2.37705859590689
+  },
+  {
+   "year": 2010,
+   "co2_mlo_ppm": 390.1,
+   "co2_gl_ppm": 388.75,
+   "co2_growth_mlo_ppm": 2.46,
+   "co2_growth_gl_ppm": 2.25,
+   "temp_anom_c": 0.72,
+   "airborne_fraction_pct": 46.1,
+   "gatm_gtc": 5.01264,
+   "efos_gtc": 9.0932514661572,
+   "eluc_gtc": 1.77888333333333,
+   "socean_gtc": 2.83318588895024,
+   "sland_gtc": 2.67666789314495
+  },
+  {
+   "year": 2011,
+   "co2_mlo_ppm": 391.85,
+   "co2_gl_ppm": 390.62,
+   "co2_growth_mlo_ppm": 1.75,
+   "co2_growth_gl_ppm": 1.87,
+   "temp_anom_c": 0.61,
+   "airborne_fraction_pct": 33.1,
+   "gatm_gtc": 3.69576,
+   "efos_gtc": 9.41047748007642,
+   "eluc_gtc": 1.74469333333333,
+   "socean_gtc": 2.86719774860979,
+   "sland_gtc": 3.29277732563259
+  },
+  {
+   "year": 2012,
+   "co2_mlo_ppm": 394.06,
+   "co2_gl_ppm": 392.65,
+   "co2_growth_mlo_ppm": 2.21,
+   "co2_growth_gl_ppm": 2.03,
+   "temp_anom_c": 0.64,
+   "airborne_fraction_pct": 45.0,
+   "gatm_gtc": 5.11884,
+   "efos_gtc": 9.54004782177948,
+   "eluc_gtc": 1.82372333333333,
+   "socean_gtc": 2.90632461484905,
+   "sland_gtc": 1.84564469092019
+  },
+  {
+   "year": 2013,
+   "co2_mlo_ppm": 396.74,
+   "co2_gl_ppm": 395.4,
+   "co2_growth_mlo_ppm": 2.68,
+   "co2_growth_gl_ppm": 2.75,
+   "temp_anom_c": 0.67,
+   "airborne_fraction_pct": 45.8,
+   "gatm_gtc": 5.2038,
+   "efos_gtc": 9.62768004284935,
+   "eluc_gtc": 1.72476,
+   "socean_gtc": 2.95490455956417,
+   "sland_gtc": 2.71513570160663
+  },
+  {
+   "year": 2014,
+   "co2_mlo_ppm": 398.81,
+   "co2_gl_ppm": 397.34,
+   "co2_growth_mlo_ppm": 2.07,
+   "co2_growth_gl_ppm": 1.94,
+   "temp_anom_c": 0.75,
+   "airborne_fraction_pct": 37.7,
+   "gatm_gtc": 4.31172,
+   "efos_gtc": 9.67950161108079,
+   "eluc_gtc": 1.74943,
+   "socean_gtc": 3.08205368930925,
+   "sland_gtc": 3.03860075250083
+  },
+  {
+   "year": 2015,
+   "co2_mlo_ppm": 401.01,
+   "co2_gl_ppm": 399.65,
+   "co2_growth_mlo_ppm": 2.2,
+   "co2_growth_gl_ppm": 2.31,
+   "temp_anom_c": 0.9,
+   "airborne_fraction_pct": 54.8,
+   "gatm_gtc": 6.2658,
+   "efos_gtc": 9.66253480158297,
+   "eluc_gtc": 1.77746333333333,
+   "socean_gtc": 3.16826797016791,
+   "sland_gtc": 1.77528492572452
+  },
+  {
+   "year": 2016,
+   "co2_mlo_ppm": 404.41,
+   "co2_gl_ppm": 403.07,
+   "co2_growth_mlo_ppm": 3.4,
+   "co2_growth_gl_ppm": 3.42,
+   "temp_anom_c": 1.01,
+   "airborne_fraction_pct": 54.2,
+   "gatm_gtc": 6.03216,
+   "efos_gtc": 9.65961527265284,
+   "eluc_gtc": 1.4674,
+   "socean_gtc": 3.28760153339864,
+   "sland_gtc": 1.98374500744933
+  },
+  {
+   "year": 2017,
+   "co2_mlo_ppm": 406.76,
+   "co2_gl_ppm": 405.22,
+   "co2_growth_mlo_ppm": 2.35,
+   "co2_growth_gl_ppm": 2.15,
+   "temp_anom_c": 0.91,
+   "airborne_fraction_pct": 40.3,
+   "gatm_gtc": 4.54536,
+   "efos_gtc": 9.81839790311135,
+   "eluc_gtc": 1.44862666666667,
+   "socean_gtc": 3.12332524846552,
+   "sland_gtc": 2.84957903286799
+  },
+  {
+   "year": 2018,
+   "co2_mlo_ppm": 408.72,
+   "co2_gl_ppm": 407.61,
+   "co2_growth_mlo_ppm": 1.96,
+   "co2_growth_gl_ppm": 2.39,
+   "temp_anom_c": 0.85,
+   "airborne_fraction_pct": 44.7,
+   "gatm_gtc": 5.07636,
+   "efos_gtc": 10.0256558220524,
+   "eluc_gtc": 1.33243,
+   "socean_gtc": 3.21472337164517,
+   "sland_gtc": 2.87823598244018
+  },
+  {
+   "year": 2019,
+   "co2_mlo_ppm": 411.65,
+   "co2_gl_ppm": 410.07,
+   "co2_growth_mlo_ppm": 2.93,
+   "co2_growth_gl_ppm": 2.46,
+   "temp_anom_c": 0.98,
+   "airborne_fraction_pct": 46.4,
+   "gatm_gtc": 5.31,
+   "efos_gtc": 10.1218795543122,
+   "eluc_gtc": 1.33383666666667,
+   "socean_gtc": 3.24225224255876,
+   "sland_gtc": 2.38393017747699
+  },
+  {
+   "year": 2020,
+   "co2_mlo_ppm": 414.21,
+   "co2_gl_ppm": 412.44,
+   "co2_growth_mlo_ppm": 2.56,
+   "co2_growth_gl_ppm": 2.37,
+   "temp_anom_c": 1.01,
+   "airborne_fraction_pct": 45.7,
+   "gatm_gtc": 4.94892,
+   "efos_gtc": 9.59558674372271,
+   "eluc_gtc": 1.23268,
+   "socean_gtc": 3.24330205902182,
+   "sland_gtc": 2.10097442061803
+  },
+  {
+   "year": 2021,
+   "co2_mlo_ppm": 416.41,
+   "co2_gl_ppm": 414.7,
+   "co2_growth_mlo_ppm": 2.2,
+   "co2_growth_gl_ppm": 2.26,
+   "temp_anom_c": 0.85,
+   "airborne_fraction_pct": 44.4,
+   "gatm_gtc": 5.03388,
+   "efos_gtc": 10.0619169727074,
+   "eluc_gtc": 1.27104333333333,
+   "socean_gtc": 3.14461483961061,
+   "sland_gtc": 2.59562956218391
+  },
+  {
+   "year": 2022,
+   "co2_mlo_ppm": 418.53,
+   "co2_gl_ppm": 417.08,
+   "co2_growth_mlo_ppm": 2.12,
+   "co2_growth_gl_ppm": 2.38,
+   "temp_anom_c": 0.89,
+   "airborne_fraction_pct": 42.1,
+   "gatm_gtc": 4.86396,
+   "efos_gtc": 10.2422957636463,
+   "eluc_gtc": 1.30605666666667,
+   "socean_gtc": 3.12045088068765,
+   "sland_gtc": 3.1061842407254
+  },
+  {
+   "year": 2023,
+   "co2_mlo_ppm": 421.08,
+   "co2_gl_ppm": 419.35,
+   "co2_growth_mlo_ppm": 2.55,
+   "co2_growth_gl_ppm": 2.27,
+   "temp_anom_c": 1.17,
+   "airborne_fraction_pct": 49.0,
+   "gatm_gtc": 5.7348,
+   "efos_gtc": 10.3968461162664,
+   "eluc_gtc": 1.29518333333333,
+   "socean_gtc": 3.27543128208379,
+   "sland_gtc": 2.01670466921629
+  },
+  {
+   "year": 2024,
+   "co2_mlo_ppm": 424.61,
+   "co2_gl_ppm": 422.79,
+   "co2_growth_mlo_ppm": 3.53,
+   "co2_growth_gl_ppm": 3.44,
+   "temp_anom_c": 1.28,
+   "airborne_fraction_pct": 67.2,
+   "gatm_gtc": 7.92252,
+   "efos_gtc": 10.5345464063865,
+   "eluc_gtc": 1.25150333333333,
+   "socean_gtc": 3.38894731727194,
+   "sland_gtc": 1.94215497985298
+  },
+  {
+   "year": 2025,
+   "co2_mlo_ppm": 427.35,
+   "co2_gl_ppm": 425.63,
+   "co2_growth_mlo_ppm": 2.74,
+   "co2_growth_gl_ppm": 2.84,
+   "temp_anom_c": 1.19,
+   "airborne_fraction_pct": null,
+   "gatm_gtc": null,
+   "efos_gtc": null,
+   "eluc_gtc": null,
+   "socean_gtc": null,
+   "sland_gtc": null
+  }
+ ],
+ "ch4": [
+  {
+   "year": 1984,
+   "ch4_gl_ppb": 1644.84,
+   "growth_ppb": null
+  },
+  {
+   "year": 1985,
+   "ch4_gl_ppb": 1657.3,
+   "growth_ppb": 12.46
+  },
+  {
+   "year": 1986,
+   "ch4_gl_ppb": 1670.09,
+   "growth_ppb": 12.79
+  },
+  {
+   "year": 1987,
+   "ch4_gl_ppb": 1682.7,
+   "growth_ppb": 12.61
+  },
+  {
+   "year": 1988,
+   "ch4_gl_ppb": 1693.2,
+   "growth_ppb": 10.5
+  },
+  {
+   "year": 1989,
+   "ch4_gl_ppb": 1704.55,
+   "growth_ppb": 11.35
+  },
+  {
+   "year": 1990,
+   "ch4_gl_ppb": 1714.43,
+   "growth_ppb": 9.88
+  },
+  {
+   "year": 1991,
+   "ch4_gl_ppb": 1724.79,
+   "growth_ppb": 10.36
+  },
+  {
+   "year": 1992,
+   "ch4_gl_ppb": 1735.47,
+   "growth_ppb": 10.68
+  },
+  {
+   "year": 1993,
+   "ch4_gl_ppb": 1736.48,
+   "growth_ppb": 1.01
+  },
+  {
+   "year": 1994,
+   "ch4_gl_ppb": 1742.08,
+   "growth_ppb": 5.6
+  },
+  {
+   "year": 1995,
+   "ch4_gl_ppb": 1748.88,
+   "growth_ppb": 6.8
+  },
+  {
+   "year": 1996,
+   "ch4_gl_ppb": 1751.3,
+   "growth_ppb": 2.42
+  },
+  {
+   "year": 1997,
+   "ch4_gl_ppb": 1754.52,
+   "growth_ppb": 3.22
+  },
+  {
+   "year": 1998,
+   "ch4_gl_ppb": 1765.59,
+   "growth_ppb": 11.07
+  },
+  {
+   "year": 1999,
+   "ch4_gl_ppb": 1772.3,
+   "growth_ppb": 6.71
+  },
+  {
+   "year": 2000,
+   "ch4_gl_ppb": 1773.21,
+   "growth_ppb": 0.91
+  },
+  {
+   "year": 2001,
+   "ch4_gl_ppb": 1771.26,
+   "growth_ppb": -1.95
+  },
+  {
+   "year": 2002,
+   "ch4_gl_ppb": 1772.68,
+   "growth_ppb": 1.42
+  },
+  {
+   "year": 2003,
+   "ch4_gl_ppb": 1777.33,
+   "growth_ppb": 4.65
+  },
+  {
+   "year": 2004,
+   "ch4_gl_ppb": 1777.13,
+   "growth_ppb": -0.2
+  },
+  {
+   "year": 2005,
+   "ch4_gl_ppb": 1774.23,
+   "growth_ppb": -2.9
+  },
+  {
+   "year": 2006,
+   "ch4_gl_ppb": 1774.93,
+   "growth_ppb": 0.7
+  },
+  {
+   "year": 2007,
+   "ch4_gl_ppb": 1781.31,
+   "growth_ppb": 6.38
+  },
+  {
+   "year": 2008,
+   "ch4_gl_ppb": 1787.01,
+   "growth_ppb": 5.7
+  },
+  {
+   "year": 2009,
+   "ch4_gl_ppb": 1793.51,
+   "growth_ppb": 6.5
+  },
+  {
+   "year": 2010,
+   "ch4_gl_ppb": 1798.92,
+   "growth_ppb": 5.41
+  },
+  {
+   "year": 2011,
+   "ch4_gl_ppb": 1803.03,
+   "growth_ppb": 4.11
+  },
+  {
+   "year": 2012,
+   "ch4_gl_ppb": 1808.06,
+   "growth_ppb": 5.03
+  },
+  {
+   "year": 2013,
+   "ch4_gl_ppb": 1813.39,
+   "growth_ppb": 5.33
+  },
+  {
+   "year": 2014,
+   "ch4_gl_ppb": 1822.58,
+   "growth_ppb": 9.19
+  },
+  {
+   "year": 2015,
+   "ch4_gl_ppb": 1834.19,
+   "growth_ppb": 11.61
+  },
+  {
+   "year": 2016,
+   "ch4_gl_ppb": 1843.19,
+   "growth_ppb": 9.0
+  },
+  {
+   "year": 2017,
+   "ch4_gl_ppb": 1849.62,
+   "growth_ppb": 6.43
+  },
+  {
+   "year": 2018,
+   "ch4_gl_ppb": 1857.33,
+   "growth_ppb": 7.71
+  },
+  {
+   "year": 2019,
+   "ch4_gl_ppb": 1866.63,
+   "growth_ppb": 9.3
+  },
+  {
+   "year": 2020,
+   "ch4_gl_ppb": 1878.78,
+   "growth_ppb": 12.15
+  },
+  {
+   "year": 2021,
+   "ch4_gl_ppb": 1894.85,
+   "growth_ppb": 16.07
+  },
+  {
+   "year": 2022,
+   "ch4_gl_ppb": 1911.01,
+   "growth_ppb": 16.16
+  },
+  {
+   "year": 2023,
+   "ch4_gl_ppb": 1921.46,
+   "growth_ppb": 10.45
+  },
+  {
+   "year": 2024,
+   "ch4_gl_ppb": 1929.47,
+   "growth_ppb": 8.01
+  },
+  {
+   "year": 2025,
+   "ch4_gl_ppb": 1935.95,
+   "growth_ppb": 6.48
+  }
+ ],
+ "monthly_mlo_recent": [
+  {
+   "year": 2024,
+   "month": 11,
+   "trend_ppm": 425.83
+  },
+  {
+   "year": 2024,
+   "month": 12,
+   "trend_ppm": 426.13
+  },
+  {
+   "year": 2025,
+   "month": 1,
+   "trend_ppm": 426.37
+  },
+  {
+   "year": 2025,
+   "month": 2,
+   "trend_ppm": 426.13
+  },
+  {
+   "year": 2025,
+   "month": 3,
+   "trend_ppm": 426.68
+  },
+  {
+   "year": 2025,
+   "month": 4,
+   "trend_ppm": 427.13
+  },
+  {
+   "year": 2025,
+   "month": 5,
+   "trend_ppm": 427.21
+  },
+  {
+   "year": 2025,
+   "month": 6,
+   "trend_ppm": 427.17
+  },
+  {
+   "year": 2025,
+   "month": 7,
+   "trend_ppm": 427.5
+  },
+  {
+   "year": 2025,
+   "month": 8,
+   "trend_ppm": 427.38
+  },
+  {
+   "year": 2025,
+   "month": 9,
+   "trend_ppm": 427.81
+  },
+  {
+   "year": 2025,
+   "month": 10,
+   "trend_ppm": 428.16
+  },
+  {
+   "year": 2025,
+   "month": 11,
+   "trend_ppm": 428.44
+  },
+  {
+   "year": 2025,
+   "month": 12,
+   "trend_ppm": 428.21
+  },
+  {
+   "year": 2026,
+   "month": 1,
+   "trend_ppm": 428.33
+  },
+  {
+   "year": 2026,
+   "month": 2,
+   "trend_ppm": 428.39
+  },
+  {
+   "year": 2026,
+   "month": 3,
+   "trend_ppm": 428.68
+  },
+  {
+   "year": 2026,
+   "month": 4,
+   "trend_ppm": 428.61
+  },
+  {
+   "year": 2026,
+   "month": 5,
+   "trend_ppm": 429.04
+  },
+  {
+   "year": 2026,
+   "month": 6,
+   "trend_ppm": 428.99
+  },
+  {
+   "year": 2026,
+   "month": 7,
+   "trend_ppm": 428.76
+  },
+  {
+   "year": 2026,
+   "month": 8,
+   "trend_ppm": 429.45
+  },
+  {
+   "year": 2026,
+   "month": 9,
+   "trend_ppm": 429.51
+  },
+  {
+   "year": 2026,
+   "month": 10,
+   "trend_ppm": 429.98
+  }
+ ],
+ "summary": {
+  "latest_year": 2025,
+  "latest_co2_gl_ppm": 425.63,
+  "latest_co2_mlo_ppm": 427.35,
+  "prev_co2_gl_ppm": 422.79,
+  "growth_gl_ppm": 2.84,
+  "growth_mlo_ppm": 2.74,
+  "growth_gl_ppm_2024": 3.44,
+  "growth_mlo_ppm_2024": 3.53,
+  "latest_temp_anom_c": 1.19,
+  "prev_temp_anom_c": 1.28,
+  "warming_since_1880_1899_c": 1.41,
+  "warming_2024_since_1880_1899_c": 1.5,
+  "warmest_year": 2024,
+  "warmest_year_anom_c": 1.28,
+  "latest_ch4_ppb": 1935.95,
+  "ch4_growth_ppb": 6.48,
+  "ch4_prev_ppb": 1929.47,
+  "airborne_fraction_latest_pct": 67.2,
+  "airborne_fraction_latest_year": 2024,
+  "airborne_fraction_mean_1959_2024_pct": 42.3,
+  "airborne_fraction_mean_2015_2024_pct": 48.9,
+  "cumulative_atm_growth_1959_2024_gtc": 231.7,
+  "cumulative_atm_growth_1959_2025_gtc": 237.7,
+  "cumulative_atm_growth_1959_2025_ppm": 111.9,
+  "cumulative_emissions_1959_2024_gtc": 537.3,
+  "cumulative_land_sink_1959_2024_gtc": 118.1,
+  "cumulative_ocean_sink_1959_2024_gtc": 146.0,
+  "budget_2024_gtc": {
+   "efos_gtc": 10.535,
+   "eluc_gtc": 1.252,
+   "total_emissions_gtc": 11.79,
+   "gatm_gtc": 7.923,
+   "sland_gtc": 1.942,
+   "socean_gtc": 3.389,
+   "cement_gtc": 0.224,
+   "imbalance_gtc": -1.69
+  },
+  "cumulative_atm_share_of_emissions_pct": 43.1,
+  "co2_rise_since_1959_mlo_ppm": 111.37,
+  "co2_rise_since_preindustrial_gl_ppm": 147.63,
+  "co2_pct_above_preindustrial": 53.1,
+  "ch4_rise_since_preindustrial_ppb": 1213.95,
+  "latest_monthly_mlo": {
+   "year": 2026,
+   "month": 10,
+   "trend_ppm": 429.98
+  },
+  "counter_rate_tco2_per_sec": 702.0,
+  "counter_rate_gtco2_per_yr": 22.12
+ },
+ "decades": [
+  {
+   "label": "1960s",
+   "years": "1960\u20131969",
+   "mean_co2_mlo_ppm": 320.29,
+   "mean_growth_mlo_ppm_yr": 0.86,
+   "mean_growth_gl_ppm_yr": null,
+   "mean_temp_anom_c": -0.03,
+   "mean_airborne_fraction_pct": 35.3,
+   "airborne_fraction_years": "1960\u20131969",
+   "drivers": "The Keeling record begins at Mauna Loa in 1958 and the world starts watching CO2 rise in real time. Growth is slow \u2014 under 1 ppm a year \u2014 because fossil emissions are still under 4 GtC a year, and the 1960s are slightly cooler than the 1951\u20131980 average, held down by aerosol pollution and natural variability.",
+   "driver_source": "NOAA GML Mauna Loa record; GISTEMP (this build)",
+   "processes": [
+    "EMIT",
+    "AIR",
+    "GREEN"
+   ],
+   "ecvs": [
+    "Carbon dioxide, methane and other greenhouse gases",
+    "Surface temperature",
+    "Aerosols",
+    "Surface radiation budget"
+   ]
+  },
+  {
+   "label": "1970s",
+   "years": "1970\u20131979",
+   "mean_co2_mlo_ppm": 330.86,
+   "mean_growth_mlo_ppm_yr": 1.22,
+   "mean_growth_gl_ppm_yr": null,
+   "mean_temp_anom_c": 0.03,
+   "mean_airborne_fraction_pct": 42.7,
+   "airborne_fraction_years": "1970\u20131979",
+   "drivers": "Growth quickens past 1 ppm a year as emissions rise, but the decade stays near the 1951\u20131980 temperature average. The 1973 oil shock briefly slows emissions growth; clean-air laws begin cutting the aerosol load in North America and Europe.",
+   "driver_source": "NOAA GML; GISTEMP; GCB 2025 (this build)",
+   "processes": [
+    "EMIT",
+    "AIR",
+    "AERO"
+   ],
+   "ecvs": [
+    "Carbon dioxide, methane and other greenhouse gases",
+    "Surface temperature",
+    "Aerosols",
+    "Precursors for aerosols and ozone"
+   ]
+  },
+  {
+   "label": "1980s",
+   "years": "1980\u20131989",
+   "mean_co2_mlo_ppm": 345.65,
+   "mean_growth_mlo_ppm_yr": 1.64,
+   "mean_growth_gl_ppm_yr": 1.59,
+   "mean_temp_anom_c": 0.25,
+   "mean_airborne_fraction_pct": 46.6,
+   "airborne_fraction_years": "1980\u20131989",
+   "drivers": "Growth averages about 1.6 ppm a year. The decade warms clearly above the baseline, and the global CO2 network begins in 1979, so the world mean is measured directly for the first time. El Chich\u00f3n erupts in 1982 and cools the planet for two years; the 1988 US heatwave and drought push the climate question into public view.",
+   "driver_source": "NOAA GML; GISTEMP; GCB 2025 (this build)",
+   "processes": [
+    "EMIT",
+    "AIR",
+    "GREEN",
+    "AERO"
+   ],
+   "ecvs": [
+    "Carbon dioxide, methane and other greenhouse gases",
+    "Surface temperature",
+    "Aerosols",
+    "Earth radiation budget",
+    "Clouds"
+   ]
+  },
+  {
+   "label": "1990s",
+   "years": "1990\u20131999",
+   "mean_co2_mlo_ppm": 360.58,
+   "mean_growth_mlo_ppm_yr": 1.53,
+   "mean_growth_gl_ppm_yr": 1.5,
+   "mean_temp_anom_c": 0.38,
+   "mean_airborne_fraction_pct": 38.1,
+   "airborne_fraction_years": "1990\u20131999",
+   "drivers": "Growth pauses briefly after Mount Pinatubo erupts in 1991 \u2014 sulfate aerosol cools the planet and the land sink strengthens \u2014 then resumes. The decade ends warmer than any before it, and the Kyoto Protocol is signed in 1997, the first treaty to cap greenhouse-gas emissions.",
+   "driver_source": "NOAA GML; GISTEMP; GCB 2025 (this build)",
+   "processes": [
+    "EMIT",
+    "AIR",
+    "GREEN",
+    "AERO",
+    "SINKS"
+   ],
+   "ecvs": [
+    "Carbon dioxide, methane and other greenhouse gases",
+    "Surface temperature",
+    "Aerosols",
+    "Clouds",
+    "Upper-air temperature"
+   ]
+  },
+  {
+   "label": "2000s",
+   "years": "2000\u20132009",
+   "mean_co2_mlo_ppm": 378.77,
+   "mean_growth_mlo_ppm_yr": 1.91,
+   "mean_growth_gl_ppm_yr": 1.87,
+   "mean_temp_anom_c": 0.59,
+   "mean_airborne_fraction_pct": 42.4,
+   "airborne_fraction_years": "2000\u20132009",
+   "drivers": "Growth averages about 1.9 ppm a year as emissions accelerate, led by coal in China. The decade is about 0.6 \u00b0C above the 1951\u20131980 baseline \u2014 the warmest decade yet \u2014 and the 2003 European heatwave and the shrinking Arctic sea ice make the warming visible.",
+   "driver_source": "NOAA GML; GISTEMP; GCB 2025 (this build)",
+   "processes": [
+    "EMIT",
+    "AIR",
+    "GREEN",
+    "SINKS"
+   ],
+   "ecvs": [
+    "Carbon dioxide, methane and other greenhouse gases",
+    "Surface temperature",
+    "Upper-air temperature",
+    "Earth radiation budget",
+    "Surface water vapour"
+   ]
+  },
+  {
+   "label": "2010s",
+   "years": "2010\u20132019",
+   "mean_co2_mlo_ppm": 400.41,
+   "mean_growth_mlo_ppm_yr": 2.4,
+   "mean_growth_gl_ppm_yr": 2.36,
+   "mean_temp_anom_c": 0.8,
+   "mean_airborne_fraction_pct": 44.8,
+   "airborne_fraction_years": "2010\u20132019",
+   "drivers": "Growth averages 2.4 ppm a year \u2014 the fastest decade on record \u2014 and the decade is about 0.8 \u00b0C above baseline. The 2015\u201316 El Ni\u00f1o drives the largest single-year CO2 jump to that point, and the Paris Agreement is adopted in 2015. Methane growth, slow in the 2000s, accelerates again.",
+   "driver_source": "NOAA GML; GISTEMP; GCB 2025 (this build)",
+   "processes": [
+    "EMIT",
+    "AIR",
+    "GREEN",
+    "CH4",
+    "SINKS"
+   ],
+   "ecvs": [
+    "Carbon dioxide, methane and other greenhouse gases",
+    "Surface temperature",
+    "Surface water vapour",
+    "Upper-air water vapour",
+    "Clouds"
+   ]
+  },
+  {
+   "label": "2015\u20132024",
+   "years": "2015\u20132024",
+   "mean_co2_mlo_ppm": 412.74,
+   "mean_growth_mlo_ppm_yr": 2.58,
+   "mean_growth_gl_ppm_yr": 2.55,
+   "mean_temp_anom_c": 0.98,
+   "mean_airborne_fraction_pct": 48.9,
+   "airborne_fraction_years": "2015\u20132024",
+   "drivers": "The warmest decade in the record, about 1 \u00b0C above the 1951\u20131980 baseline, with CO2 growth averaging 2.6 ppm a year. The 2023\u201324 El Ni\u00f1o collapses the tropical land sink and drives the largest annual CO2 growth ever measured \u2014 3.44 ppm globally in 2024 \u2014 while 2024 becomes the warmest year on record.",
+   "driver_source": "NOAA GML; GISTEMP; GCB 2025 (this build)",
+   "processes": [
+    "EMIT",
+    "AIR",
+    "GREEN",
+    "CH4",
+    "SINKS",
+    "BALANCE"
+   ],
+   "ecvs": [
+    "Carbon dioxide, methane and other greenhouse gases",
+    "Surface temperature",
+    "Surface water vapour",
+    "Earth radiation budget",
+    "Upper-air temperature",
+    "Precipitation"
+   ]
+  },
+  {
+   "label": "2020s so far",
+   "years": "2020\u20132025",
+   "mean_co2_mlo_ppm": 420.37,
+   "mean_growth_mlo_ppm_yr": 2.62,
+   "mean_growth_gl_ppm_yr": 2.59,
+   "mean_temp_anom_c": 1.06,
+   "mean_airborne_fraction_pct": 49.7,
+   "airborne_fraction_years": "2020\u20132024",
+   "drivers": "The 2020s so far average about 1.1 \u00b0C above the 1951\u20131980 baseline \u2014 the warmest years ever measured. CO2 growth stays above 2.5 ppm a year, 2024 sets the record for annual growth, and 2025 is the second-warmest year in the GISTEMP record. The pandemic dip in 2020 emissions barely registers in the CO2 curve: one year's cut is a small dent in a stock that keeps rising.",
+   "driver_source": "NOAA GML; GISTEMP (this build)",
+   "processes": [
+    "EMIT",
+    "AIR",
+    "GREEN",
+    "CH4",
+    "SINKS",
+    "BALANCE"
+   ],
+   "ecvs": [
+    "Carbon dioxide, methane and other greenhouse gases",
+    "Surface temperature",
+    "Surface water vapour",
+    "Earth radiation budget",
+    "Aerosols",
+    "Precursors for aerosols and ozone"
+   ]
+  }
+ ],
+ "ecvs": [
+  {
+   "name": "Surface temperature",
+   "group": "Surface",
+   "role": "Air temperature near the surface \u2014 the warming itself, measured by the station network behind GISTEMP and the other surface records."
+  },
+  {
+   "name": "Precipitation",
+   "group": "Surface",
+   "role": "Rain and snow: the water cycle's delivery. Warming air holds about 7% more water vapour per degree, so rain falls harder and droughts bite deeper."
+  },
+  {
+   "name": "Surface pressure",
+   "group": "Surface",
+   "role": "The weight of the air above a point; its patterns steer the winds and the storms that move heat and moisture around the planet."
+  },
+  {
+   "name": "Surface wind speed and direction",
+   "group": "Surface",
+   "role": "Winds move heat, moisture and CO2 itself \u2014 and set how fast the ocean and land sinks can take carbon out of the air."
+  },
+  {
+   "name": "Surface water vapour",
+   "group": "Surface",
+   "role": "Water vapour is the strongest greenhouse gas by amount, and a feedback: warmer air holds more of it, which traps more heat."
+  },
+  {
+   "name": "Surface radiation budget",
+   "group": "Surface",
+   "role": "Sunlight in, infrared out at the ground \u2014 the balance that decides whether the surface warms or cools."
+  },
+  {
+   "name": "Upper-air temperature",
+   "group": "Upper-air",
+   "role": "Temperature through the troposphere and stratosphere. The troposphere warms while the stratosphere cools \u2014 the fingerprint of greenhouse warming, not solar warming."
+  },
+  {
+   "name": "Upper-air wind speed and direction",
+   "group": "Upper-air",
+   "role": "The jet streams and the circulation aloft; their shifts move storms, heatwaves and the monsoons."
+  },
+  {
+   "name": "Upper-air water vapour",
+   "group": "Upper-air",
+   "role": "Water vapour above the surface, including the stratosphere, where it acts as a greenhouse gas and shapes ozone chemistry."
+  },
+  {
+   "name": "Earth radiation budget",
+   "group": "Upper-air",
+   "role": "Sunlight in minus infrared out at the top of the atmosphere, measured by CERES satellites \u2014 the direct measure of the energy imbalance driving warming, about +1 W/m2 in recent years."
+  },
+  {
+   "name": "Lightning",
+   "group": "Upper-air",
+   "role": "Lightning frequency tracks storm intensity and convection, and its nitrogen oxides feed ozone and aerosol chemistry."
+  },
+  {
+   "name": "Clouds",
+   "group": "Atmospheric composition",
+   "role": "Cloud properties \u2014 amount, height, type. Clouds cool by reflecting sunlight and warm by trapping infrared; their net effect is the largest uncertainty in how much warming a given forcing brings."
+  },
+  {
+   "name": "Aerosols",
+   "group": "Atmospheric composition",
+   "role": "Airborne particles \u2014 sulfate, dust, soot, sea salt. They reflect sunlight and seed clouds, cooling the planet by about 1.1 W/m2 and masking part of the greenhouse warming."
+  },
+  {
+   "name": "Carbon dioxide, methane and other greenhouse gases",
+   "group": "Atmospheric composition",
+   "role": "The well-mixed greenhouse gases \u2014 CO2, CH4, N2O and halocarbons. Their rising concentrations are the forcing this ledger measures: CO2 425.6 ppm and CH4 1,936 ppb in 2025."
+  },
+  {
+   "name": "Ozone",
+   "group": "Atmospheric composition",
+   "role": "Ozone in the stratosphere shields life from UV; ozone in the troposphere is a greenhouse gas and a pollutant. Its forcing since 1750 is about +0.47 W/m2."
+  },
+  {
+   "name": "Precursors for aerosols and ozone",
+   "group": "Atmospheric composition",
+   "role": "The gases that make aerosols and ozone \u2014 SO2, NOx, ammonia, volatile organic compounds \u2014 mostly from burning fuel and from farming."
+  }
+ ],
+ "processes": [
+  {
+   "abbr": "EMIT",
+   "name": "Emissions \u2014 the input",
+   "role": "Humans emitted 11.79 GtC in 2024 (10.54 GtC fossil fuels and cement, 1.25 GtC land-use change; Global Carbon Budget 2025). Every tonne starts here; the rest of the ledger is where it goes.",
+   "source": "Friedlingstein et al. 2025 (GCB 2025)"
+  },
+  {
+   "abbr": "AIR",
+   "name": "Airborne fraction \u2014 what stays in the air",
+   "role": "About 42% of cumulative emissions since 1959 stayed in the atmosphere (the airborne fraction); the rest went into the land and ocean sinks. In 2024 the fraction hit 67% \u2014 the record CO2 growth year, when the tropical land sink collapsed in the El Ni\u00f1o drought. The fraction, not the emissions alone, sets how fast CO2 rises.",
+   "source": "Friedlingstein et al. 2025 (GCB 2025); computed in data.json"
+  },
+  {
+   "abbr": "GREEN",
+   "name": "The greenhouse effect \u2014 why CO2 warms",
+   "role": "CO2 absorbs infrared at 15 micrometres, the wavelength Earth radiates to space. Adding CO2 closes that window a little more, so the surface must warm to radiate the same energy. The forcing grows logarithmically \u2014 about 5.35 x ln(C/C0) W/m2 \u2014 so each extra ppm matters less than the last, but the total since 1750 is +2.16 W/m2, and a doubling of CO2 gives +3.93 W/m2.",
+   "source": "IPCC AR6 WG1, Chapter 7 (Forster et al. 2021)"
+  },
+  {
+   "abbr": "SINKS",
+   "name": "Land and ocean sinks \u2014 what leaves the air",
+   "role": "In 2024 the land took up 1.94 GtC and the ocean 3.39 GtC (GCB 2025). The sinks grow with CO2 \u2014 more CO2 fertilises photosynthesis and pushes more gas into seawater \u2014 but they weaken as the planet warms: heat and drought cut the land sink, and warmer water holds less CO2. The sinks are why only about half of emissions stay airborne.",
+   "source": "Friedlingstein et al. 2025 (GCB 2025)"
+  },
+  {
+   "abbr": "CH4",
+   "name": "Methane \u2014 the fast gas",
+   "role": "Methane reached 1,935.95 ppb in 2025, up from 722 ppb pre-industrial, growing 6.5 ppb in 2025 alone. Its forcing since 1750 is +0.54 W/m2, and it lives only about 12 years in the air \u2014 so cutting methane cools the planet within a decade, unlike CO2, which lingers for centuries.",
+   "source": "NOAA GML global CH4 (this build); IPCC AR6 WG1, Chapter 7"
+  },
+  {
+   "abbr": "AERO",
+   "name": "Aerosols \u2014 the cooling mask",
+   "role": "Air pollution cools the planet by about 1.1 W/m2 (aerosol-radiation -0.84, aerosol-cloud -0.22; IPCC AR6) \u2014 masking roughly a third of the greenhouse warming. Cleaning up the air saves lives but unmasks warming, which is why the net forcing (+2.72 W/m2) is smaller than the greenhouse gases alone (+3.32 W/m2).",
+   "source": "IPCC AR6 WG1, Chapter 7 (Forster et al. 2021)"
+  },
+  {
+   "abbr": "BALANCE",
+   "name": "The budget identity \u2014 it has to add up",
+   "role": "Emissions = atmospheric growth + land sink + ocean sink + cement carbonation + budget imbalance. In 2024: 11.79 = 7.92 + 1.94 + 3.39 + 0.22 - 1.69 GtC \u2014 the imbalance is the part the measured terms do not account for. And the energy balance must add up too: the +2.72 W/m2 of forcing is balanced by warming plus heat stored in the ocean. The ledger is two account books \u2014 carbon and energy \u2014 and they have to close together.",
+   "source": "Friedlingstein et al. 2025 (GCB 2025); IPCC AR6 WG1, Chapter 7"
+  }
+ ],
+ "forcing": [
+  {
+   "agent": "Carbon dioxide (CO2)",
+   "erf": 2.16,
+   "sign": "warming"
+  },
+  {
+   "agent": "Methane (CH4)",
+   "erf": 0.54,
+   "sign": "warming"
+  },
+  {
+   "agent": "Nitrous oxide (N2O)",
+   "erf": 0.21,
+   "sign": "warming"
+  },
+  {
+   "agent": "Halogens (CFCs, HFCs and others)",
+   "erf": 0.41,
+   "sign": "warming"
+  },
+  {
+   "agent": "Ozone",
+   "erf": 0.47,
+   "sign": "warming"
+  },
+  {
+   "agent": "Stratospheric water vapour",
+   "erf": 0.05,
+   "sign": "warming"
+  },
+  {
+   "agent": "Contrails and aviation-induced cirrus",
+   "erf": 0.06,
+   "sign": "warming"
+  },
+  {
+   "agent": "Land-use albedo change",
+   "erf": -0.2,
+   "sign": "cooling"
+  },
+  {
+   "agent": "Light-absorbing particles on snow and ice",
+   "erf": 0.08,
+   "sign": "warming"
+  },
+  {
+   "agent": "Aerosol-radiation interactions",
+   "erf": -0.84,
+   "sign": "cooling"
+  },
+  {
+   "agent": "Aerosol-cloud interactions",
+   "erf": -0.22,
+   "sign": "cooling"
+  },
+  {
+   "agent": "Total well-mixed greenhouse gases",
+   "erf": 3.32,
+   "sign": "warming"
+  },
+  {
+   "agent": "Total anthropogenic",
+   "erf": 2.72,
+   "sign": "warming"
+  },
+  {
+   "agent": "Solar irradiance",
+   "erf": -0.02,
+   "sign": "cooling"
+  }
+ ]
+}
